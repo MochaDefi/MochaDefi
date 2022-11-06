@@ -1,0 +1,270 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "isTriggered",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "isTriggered(bytes,bytes)": "91a973c6"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"},{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"name\":\"isTriggered\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/src/conditions/interfaces/ICondition.sol\":\"ICondition\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=contracts/lib/forge-std/lib/ds-test/src/\",\":forge-std/=contracts/lib/forge-std/src/\"]},\"sources\":{\"contracts/src/conditions/interfaces/ICondition.sol\":{\"keccak256\":\"0xa62a6ff117d76d13049ddeab0f56d00c6656de7a91597aa740f1bfe80431a901\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8a4e8b1654c5d208426663d082e1d000b927735cc53ea34257352ec8a802ee91\",\"dweb:/ipfs/QmcRSmpe1RQEosuS9U2GeHqEwrJ2LxR2mdD777bB1sCSGX\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes"
+            },
+            {
+              "internalType": "bytes",
+              "name": "",
+              "type": "bytes"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "isTriggered",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=contracts/lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=contracts/lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/src/conditions/interfaces/ICondition.sol": "ICondition"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/src/conditions/interfaces/ICondition.sol": {
+        "keccak256": "0xa62a6ff117d76d13049ddeab0f56d00c6656de7a91597aa740f1bfe80431a901",
+        "urls": [
+          "bzz-raw://8a4e8b1654c5d208426663d082e1d000b927735cc53ea34257352ec8a802ee91",
+          "dweb:/ipfs/QmcRSmpe1RQEosuS9U2GeHqEwrJ2LxR2mdD777bB1sCSGX"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/src/conditions/interfaces/ICondition.sol",
+    "id": 23375,
+    "exportedSymbols": {
+      "ICondition": [
+        23374
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:141:9",
+    "nodes": [
+      {
+        "id": 23364,
+        "nodeType": "PragmaDirective",
+        "src": "33:24:9",
+        "literals": [
+          "solidity",
+          "=",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 23374,
+        "nodeType": "ContractDefinition",
+        "src": "58:116:9",
+        "nodes": [
+          {
+            "id": 23373,
+            "nodeType": "FunctionDefinition",
+            "src": "93:79:9",
+            "functionSelector": "91a973c6",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isTriggered",
+            "nameLocation": "102:11:9",
+            "parameters": {
+              "id": 23369,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 23366,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23373,
+                  "src": "114:12:9",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 23365,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "114:5:9",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 23368,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23373,
+                  "src": "128:12:9",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 23367,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "128:5:9",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "113:28:9"
+            },
+            "returnParameters": {
+              "id": 23372,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 23371,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 23373,
+                  "src": "166:4:9",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 23370,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "166:4:9",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "165:6:9"
+            },
+            "scope": 23374,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "public"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "ICondition",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          23374
+        ],
+        "name": "ICondition",
+        "nameLocation": "76:10:9",
+        "scope": 23375,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 9
+}
